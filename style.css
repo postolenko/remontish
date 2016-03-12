@@ -286,7 +286,8 @@ select::-ms-expand {
 }
 
 .head-logo-img {
-
+    width: 279px;
+    height: 88px;
 }
 
 .head-tel-col {
@@ -516,9 +517,12 @@ select::-ms-expand {
    box-shadow: 0px 2px 2px 0px rgba(0 , 0, 0, .3);
 }
 
-.scroll-header-bg .header-bg,
+.scroll-header-bg .header-bg {
+    opacity: .85;
+}
+
 .scroll-header-bg .header-navigation {
-    opacity: .9;
+    opacity: .7;
 }
 
 .scroll-header-bg .header-contact-bg {
@@ -796,10 +800,6 @@ select::-ms-expand {
 .organizations i {
     background-image: url(img/sprite_categories.png);
     background-position: -772px -297px
-}
-
-.banner-widget-sect {
-    /*padding: 5px 0;*/
 }
 
 .banner-main-page {
@@ -1124,10 +1124,6 @@ select::-ms-expand {
     border-left: 1px solid #ffffff;
 }
 
-.answer {
-
-}
-
 .answer-h {
     font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     color: #444444;
@@ -1151,9 +1147,15 @@ select::-ms-expand {
 }
 
 .vk-testimonial-module {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
+.vk_testimonials_module_img {
+    width: auto;
+    max-width: auto;
+    height: auto;
+    margin: 30px 0;
+}
 
 /*-- /Ремонт Компьютеров --*/
 
@@ -1577,6 +1579,7 @@ select::-ms-expand {
 .vk-vidget-img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .baner-box {
@@ -1587,6 +1590,7 @@ select::-ms-expand {
 .baner-img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 
