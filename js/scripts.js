@@ -18,9 +18,21 @@ $(document).ready(function() {
 
     getHeightTriangle();
 
+    $("body").css({"padding-top": $(".header-box").height() + "px"});
+
     $(document).scroll(function() {
 
         getScrollToTopBtn();
+
+        if ( $(window).scrollTop() >= $(".header-box").height() ) {
+
+            $(".header-box").addClass("scroll-header-bg");
+
+        } else if ( $(".header-box").hasClass("scroll-header-bg") ){
+
+            $(".header-box").removeClass("scroll-header-bg");
+
+        }
 
     });
 
@@ -49,6 +61,18 @@ $(document).ready(function() {
         } );
 
     });
+
+
+        if ( $(window).scrollTop() >= $(".header-box").height() ) {
+
+            $(".header-box").addClass("scroll-header-bg");
+
+        } else if ( $(".header-box").hasClass("scroll-header-bg") ){
+
+            $(".header-box").removeClass("scroll-header-bg");
+
+        }
+
 
     function showAnswerContent() {
 
