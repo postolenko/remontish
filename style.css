@@ -216,10 +216,6 @@ select::-ms-expand {
     margin: 0;
 }
 
-.head-form-col.inpt-box {
-
-}
-
 .head-form-col.inpt-box input {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     color: #7a7a7a;
@@ -453,7 +449,7 @@ select::-ms-expand {
 }
 
 .header-navigation {
-    background-color: rgba(233, 233, 233, 1);
+    background: rgba(233, 233, 233, 1);
     background-image: url(img/header_nav_bg.jpg);
     background-repeat: repeat; 
     text-align: center;
@@ -522,7 +518,8 @@ select::-ms-expand {
 }
 
 .scroll-header-bg .header-navigation {
-    opacity: .7;
+    background: rgba(233, 233, 233, .7);
+    opacity: .8;
 }
 
 .scroll-header-bg .header-contact-bg {
