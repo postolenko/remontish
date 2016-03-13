@@ -1811,6 +1811,7 @@ select::-ms-expand {
 
 .footer-col-right {
     float: right;
+    min-width: 66%;
 }
 
 .footer-right-col-row .adress {
