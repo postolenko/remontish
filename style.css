@@ -200,7 +200,7 @@ select::-ms-expand {
 }
 
 .head-form-col.main {
-    padding: 0 1% 0 0;
+    width: 24%;
 }
 
 .head-form-col-h2 {
@@ -502,28 +502,44 @@ select::-ms-expand {
 .nav-link:hover,
 .nav-link:active {
     color: #ffffff;
-    background-color: rgba(218, 68, 47, 1);
+    background: rgba(218, 68, 47, 1);
     background-image: url(img/header_nav_hover_bg.jpg);
 }
 
 .scroll-header-bg {
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, 1);
    -webkit-box-shadow: 0px 2px 2px 0px rgba(0 , 0, 0, .3);
    -moz-box-shadow: 0px 2px 2px 0px rgba(0 , 0, 0, .3);
    box-shadow: 0px 2px 2px 0px rgba(0 , 0, 0, .3);
 }
 
-.scroll-header-bg .header-bg {
-    opacity: .85;
+.scroll-header-bg .head-logo-img {
+    width: auto;
+    height: 60px;
+}
+
+.scroll-header-bg .head-tel-col {
+    width: 68%;
+}
+
+.scroll-header-bg .header-right-col {
+    display: none;
+}
+
+.scroll-header-bg .head-tel-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
 }
 
 .scroll-header-bg .header-navigation {
     background: rgba(233, 233, 233, .7);
-    opacity: .8;
 }
 
 .scroll-header-bg .header-contact-bg {
     padding: 3px 0;
+    display: none;
 }
 
 .scroll-header-bg .header-bg {
