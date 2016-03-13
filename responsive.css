@@ -255,6 +255,45 @@
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
 
+	.corp {
+	    font-size: 16px;
+	}
+
+	.footer-col {
+		width: 100%;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.footer-col .footer-col-right {
+		float: none;
+	}
+
+	.footer-right-col-row .adress,
+	.footer-right-col-row .work-time {
+	    font-size: 18px;
+	    line-height: 24px;
+	    margin: 7px 0;
+	}
+
+	.footer-right-col-row .drive-cart {
+	    font-size: 18px;
+	    line-height: 24px;
+	    margin: 15px 0;
+	}
+
+	.footer-tel-box {
+		padding: 10px 0 0 0;
+	}
+
+	.footer-tel {
+		margin: 10px 0;
+	}
+
+	.footer-tel-link {
+		font-size: 22px;
+    	line-height: 26px;
+	}
 
 
 }
@@ -387,6 +426,15 @@ h2 {
 	}
 
 	/*-- /Главная страница --*/
+
+
+/*-------------------------------------------*/
+/* ----- FOOTER ------ */
+/*-------------------------------------------*/
+
+		.footer-nav {
+		display: none;
+	}
 
 
 }
