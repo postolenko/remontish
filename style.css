@@ -166,6 +166,10 @@ select::-ms-expand {
     content: "\e258";
 }
 
+.glyphicon-menu-left:before {
+  content: "\e257";
+}
+
 .glyphicon-star:before {
     content: "\e006";
 }
@@ -1176,10 +1180,34 @@ select::-ms-expand {
     padding: 20px 0;
 }
 
+.dimension {
+    display: none;
+    background: rgba(247, 247, 247, 1);
+    width: 100%;
+    padding: 1px 0;
+    cursor: pointer;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.dimension h3 {
+    color: #309cda;
+    font-family: "OpenSans", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    padding: 0 2%;
+}
+
+.arrow-icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 20px;
+}
+
 .answ-quest-table {
     font-size: 0;
     line-height: 0;
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     display: table;
     width: 100%;
     background: rgba(247, 247, 247, 1);
@@ -1286,8 +1314,8 @@ select::-ms-expand {
 }
 
 .vk_testimonials_module_img {
-    width: auto;
-    max-width: auto;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     margin: 30px 0;
 }
@@ -1506,23 +1534,23 @@ select::-ms-expand {
     padding: 6px 15px;
 
     -webkit-transition-property: background;
-    -webkit-transition-duration: 0.3s;
+    -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
 
     -moz-transition-property: background;
-    -moz-transition-duration: 0.3s;
+    -moz-transition-duration: .3s;
     -moz-transition-timing-function: ease;
 
     -ms-transition-property: background;
-    -ms-transition-duration: 0.3s;
+    -ms-transition-duration: .3s;
     -ms-transition-timing-function: ease;
 
     -o-transition-property: background;
-    -o-transition-duration: 0.3s;
+    -o-transition-duration: .3s;
     -o-transition-timing-function: ease;
 
     transition-property: background;
-    transition-duration: 0.3s;
+    transition-duration: .3s;
     transition-timing-function: ease;
 }
 

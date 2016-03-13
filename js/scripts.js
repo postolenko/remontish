@@ -62,11 +62,26 @@ $(document).ready(function() {
 
     });
 
-
-
-
-
     // --- Main navigation
+
+
+
+    // Service table
+
+    $(".dimension").click( function() {
+
+        $(".arrow-icon").toggleClass("glyphicon-menu-left");
+
+        $(".answ-quest-table").toggleClass("show-menu");
+
+    });
+
+
+
+    // --- Service table
+
+
+
 
     $(function() {
 
