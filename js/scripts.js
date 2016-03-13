@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     var questionIndex = 0;
     var questionIndexActive;
     var triangleHeight;
@@ -18,7 +17,9 @@ $(document).ready(function() {
 
     getHeightTriangle();
 
+
     $("body").css({"padding-top": $(".header-box").height() + "px"});
+
 
     $(document).scroll(function() {
 
@@ -31,6 +32,7 @@ $(document).ready(function() {
         } else if ( $(".header-box").hasClass("scroll-header-bg") ){
 
             $(".header-box").removeClass("scroll-header-bg");
+            $("body").css({"padding-top": $(".header-box").height() + "px"});
 
         }
 
@@ -38,9 +40,33 @@ $(document).ready(function() {
 
     $(window).resize(function() {
 
+        $("body").css({"padding-top": $(".header-box").height() + "px"});
+
         getHeightTriangle();
 
     });
+
+
+    // Main navigation
+
+
+    $(".main-nav-btn").click(function() {
+
+        $(".responsive-nav").addClass("show-main-nav");
+
+    });
+
+    $(".top-main-nav-btn").click(function() {
+
+        $(".responsive-nav").removeClass("show-main-nav");
+
+    });
+
+
+
+
+
+    // --- Main navigation
 
     $(function() {
 
@@ -63,15 +89,15 @@ $(document).ready(function() {
     });
 
 
-        if ( $(window).scrollTop() >= $(".header-box").height() ) {
+    if ( $(window).scrollTop() >= $(".header-box").height() ) {
 
-            $(".header-box").addClass("scroll-header-bg");
+        $(".header-box").addClass("scroll-header-bg");
 
-        } else if ( $(".header-box").hasClass("scroll-header-bg") ){
+    } else if ( $(".header-box").hasClass("scroll-header-bg") ){
 
-            $(".header-box").removeClass("scroll-header-bg");
+        $(".header-box").removeClass("scroll-header-bg");
 
-        }
+    }
 
 
     function showAnswerContent() {

@@ -91,10 +91,8 @@ body {
 .content {
     position: relative;
     display: table-row;
-    display: block;
     height: 100%;
     min-width: 100%;
-    padding-bottom: 60px;
 }
 
 .clearfix:after {
@@ -200,7 +198,7 @@ select::-ms-expand {
 }
 
 .head-form-col.main {
-    width: 24%;
+    min-width: 24%;
 }
 
 .head-form-col-h2 {
@@ -353,9 +351,10 @@ select::-ms-expand {
 .header-right-col-row i {
     display: inline-block;
     vertical-align: middle;
-    width: 13px;
+    width: 5%;
     height: 13px;
     background-image: url(img/sprite_header.png);
+    background-repeat: no-repeat;
 }
 
 .adress-icon {
@@ -365,6 +364,7 @@ select::-ms-expand {
 .adress {
     display: inline-block;
     vertical-align: middle;
+    width: 95%;
     font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     color: #272727;
     font-size: 16px;
@@ -379,6 +379,7 @@ select::-ms-expand {
 .work-time {
     display: inline-block;
     vertical-align: middle;
+    width: 95%;
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     color: #272727;
     font-size: 16px;
@@ -448,8 +449,77 @@ select::-ms-expand {
     color: #db4530;
 }
 
+.responsive-nav {
+    position: relative;
+
+    -webkit-transition-property: top;
+    -webkit-transition-duration: .4s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: top;
+    -moz-transition-duration: .4s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: top;
+    -ms-transition-duration: .4s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: top;
+    -o-transition-duration: .4s;
+    -o-transition-timing-function: ease;
+
+    transition-property: top;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+
+.main-nav-box {
+    background-color: rgb(233, 233, 233);
+    background-image: url(img/header_nav_bg.jpg);
+    background-repeat: repeat; 
+    text-align: center;
+}
+
+.main-nav-btn {
+    display: none;
+    padding: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-nav-btn span {
+    display: block;
+    background-color: rgb(133, 133, 133);
+    width: 50%;
+    height: 2px;
+    margin: 3px auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.top-main-nav-btn {
+    display: none;
+    width: 100%;
+    padding: 4px 0;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.top-trg {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 15px solid #858585;
+}
+
 .header-navigation {
-    background: rgba(233, 233, 233, 1);
+    background-color: rgb(233, 233, 233);
     background-image: url(img/header_nav_bg.jpg);
     background-repeat: repeat; 
     text-align: center;
@@ -502,7 +572,7 @@ select::-ms-expand {
 .nav-link:hover,
 .nav-link:active {
     color: #ffffff;
-    background: rgba(218, 68, 47, 1);
+    background-color: rgb(218, 68, 47);
     background-image: url(img/header_nav_hover_bg.jpg);
 }
 
@@ -533,8 +603,13 @@ select::-ms-expand {
     text-align: right;
 }
 
+.scroll-header-bg .head-tel-link {
+    font-size: 25px;
+    line-height: 28px;
+}
+
 .scroll-header-bg .header-navigation {
-    background: rgba(233, 233, 233, .7);
+    background-color: rgba(233, 233, 233);
 }
 
 .scroll-header-bg .header-contact-bg {
@@ -682,6 +757,7 @@ select::-ms-expand {
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     border-radius: 3px;
+    padding: 1%;
     -webkit-transition-property: color box-shadow;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -719,8 +795,9 @@ select::-ms-expand {
 
 .category-thumb i {
     display: block;
-    width: 100%;
+    width: 140px;
     height: 160px;
+    margin: 0 auto;
 }
 
 .category-thumb h3 {
@@ -742,7 +819,7 @@ select::-ms-expand {
 
 .computers i {
     background-image: url(img/sprite_categories.png);
-    background-position: -4px -10px;
+    background-position: -48px -10px;
 }
 
 .notebooks {
@@ -752,7 +829,7 @@ select::-ms-expand {
 
 .notebooks i {
     background-image: url(img/sprite_categories.png);
-    background-position: -262px -11px;
+    background-position: -303px -11px;
 }
 
 .equipment {
@@ -762,7 +839,7 @@ select::-ms-expand {
 
 .equipment i {
     background-image: url(img/sprite_categories.png);
-    background-position: -515px -11px;
+    background-position: -561px -11px;
 }
 
 .phones {
@@ -772,7 +849,7 @@ select::-ms-expand {
 
 .phones i {
     background-image: url(img/sprite_categories.png);
-    background-position: -771px -14px;
+    background-position: -820px -14px;
 }
 
 .tablets {
@@ -782,7 +859,7 @@ select::-ms-expand {
 
 .tablets i {
     background-image: url(img/sprite_categories.png);
-    background-position: -7px -294px;
+    background-position: -48px -294px;
 }
 
 .consoles {
@@ -792,7 +869,7 @@ select::-ms-expand {
 
 .consoles i {
     background-image: url(img/sprite_categories.png);
-    background-position: -259px -297px
+    background-position: -304px -11px;
 }
 
 .tv {
@@ -802,7 +879,7 @@ select::-ms-expand {
 
 .tv i {
     background-image: url(img/sprite_categories.png);
-    background-position: -515px -297px;
+    background-position: -559px -297px;
 }
 
 .organizations {
@@ -812,7 +889,7 @@ select::-ms-expand {
 
 .organizations i {
     background-image: url(img/sprite_categories.png);
-    background-position: -772px -297px
+    background-position: -817px -297px;
 }
 
 .banner-main-page {
@@ -1478,6 +1555,7 @@ select::-ms-expand {
     display: inline-block;
     vertical-align: middle;
     min-width: 185px;
+    margin: 5px 0;
     background: rgba(255, 255, 255, 1);
     position: relative;
     top: -17px;
