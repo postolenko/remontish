@@ -78,45 +78,97 @@
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-.head-logo-img {
-    width: auto;
-    height: 60px;
-}
+	.head-logo-img {
+	    width: auto;
+	    height: 50px;
+	}
 
-.scroll-header-bg {
-    background: rgba(255, 255, 255, 1);
-}
+	.scroll-header-bg {
+	    background: rgba(255, 255, 255, 1);
+	}
 
-.head-tel-col {
-    width: 68%;
-}
+	.head-tel-col {
+	    width: 68%;
+	}
 
-.header-right-col {
-    display: none;
-}
+	.header-right-col {
+	    display: none;
+	}
 
-.scroll-header-bg .head-tel-box {
-    width: 100%;
-}
+	.head-tel-box {
+	    width: 100%;
+	    text-align: right;
+	}
 
-.head-tel-box {
-    width: 100%;
-    text-align: right;
-}
+	.head-tel-link {
+		width: 100%;
+	    font-size: 17px;
+	    line-height: 28px;
+	}
 
-.header-contact-bg {
-    padding: 3px 0;
-    display: none;
-}
+	.scroll-header-bg  .head-tel-box {
+	    width: 100%;
+	    text-align: right;
+	}
 
-.header-bg {
-    padding: 5px 0;
-}
+	.scroll-header-bg .head-tel-link {
+		font-size: 17px;
+	}
 
-.nav-link {
-	font-size: 12px;
-    padding: 1px 10px;
-}
+	.header-contact-bg {
+	    padding: 3px 0;
+	    display: none;
+	}
+
+	.header-bg {
+	    padding: 2px 0;
+	}
+
+	.responsive-nav {
+		display: block;
+		height: 100vh;
+		width: 150%;
+		margin: 0 0 0 -25%;
+		position: fixed;
+		top: -100%;
+		left: 0;		
+		background: rgba(32, 32, 26, .85);
+		overflow-y: scroll; 
+	}
+
+	.responsive-nav.show-main-nav {
+		top: 0%;
+	}
+
+	.main-nav-btn,
+	.top-main-nav-btn {
+		display: block;
+	}
+
+	.header-navigation {
+	    background: none;
+	    padding: 30px 0;
+	}
+
+	.nav-item {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav-link,
+	.scroll-header-bg .nav-link {
+		display: block;
+		width: 100%;
+		color: #ffffff;
+		font-size: 18px;
+	    padding: 8px 10px;
+	}
+
+	.nav-link:link,
+	.nav-link:visited {
+		color: #ffffff;
+	}
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
@@ -227,102 +279,11 @@
 
 @media only screen and (max-width: 480px) {
 
-h2 {
-    margin: 45px 0 30px 0;
-}
-
-/*-------------------------------------------*/
-/* ----- HEADER ------ */
-/*-------------------------------------------*/
-
-	.head-logo-img {
-	    width: auto;
-	    height: 50px;
+	h2 {
+	    margin: 45px 0 30px 0;
 	}
 
-	.scroll-header-bg {
-	    background: rgba(255, 255, 255, 1);
-	}
-
-	.head-tel-col {
-	    width: 68%;
-	}
-
-	.header-right-col {
-	    display: none;
-	}
-
-	.head-tel-box {
-	    width: 100%;
-	    text-align: right;
-	}
-
-	.head-tel-link {
-	    font-size: 17px;
-	    line-height: 28px;
-	}
-
-	.scroll-header-bg .head-tel-link {
-		font-size: 17px;
-	}
-
-	.header-contact-bg {
-	    padding: 3px 0;
-	    display: none;
-	}
-
-	.header-bg {
-	    padding: 2px 0;
-	}
-
-	.responsive-nav {
-		display: block;
-		height: 100vh;
-		width: 150%;
-		margin: 0 0 0 -25%;
-		position: fixed;
-		top: -100%;
-		left: 0;		
-		background: rgba(46, 45, 32, .9);
-		overflow-y: scroll; 
-	}
-
-	.responsive-nav.show-main-nav {
-		top: 0%;
-	}
-
-	.main-nav-btn,
-	.top-main-nav-btn {
-		display: block;
-	}
-
-	.header-navigation {
-	    /*background: rgba(233, 233, 233, 1);*/
-	    background: none;
-	    margin: 10px 0;
-	}
-
-	.nav-item {
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
-
-	.nav-link,
-	.scroll-header-bg .nav-link {
-		display: block;
-		width: 100%;
-		color: #ffffff;
-		font-size: 18px;
-	    padding: 8px 10px;
-	}
-
-	.nav-link:link,
-	.nav-link:visited {
-		color: #ffffff;
-	}
-
-
+	
 	/*-- Главная страница --*/
 
 	.category-thumbs {

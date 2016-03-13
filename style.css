@@ -519,11 +519,38 @@ select::-ms-expand {
 .top-main-nav-btn {
     display: none;
     width: 100%;
+    position: fixed;
+    top: -100%;
+    left: 0;
     padding: 4px 0;
     cursor: pointer;
     background: rgba(0, 0, 0, 1);
     text-align: center;
     border-bottom: 1px solid #ffffff;
+    
+    -webkit-transition-property: top;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: top;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: top;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: top;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: top;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.show-main-nav .top-main-nav-btn {
+    top: 0;
 }
 
 .top-trg {
@@ -775,6 +802,7 @@ select::-ms-expand {
     -ms-border-radius: 3px;
     border-radius: 3px;
     padding: 1%;
+
     -webkit-transition-property: color box-shadow;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
