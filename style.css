@@ -504,7 +504,7 @@ select::-ms-expand {
     width: 100%;
     padding: 4px 0;
     cursor: pointer;
-    background-color: rgb(233, 233, 233);
+    background: rgba(0, 0, 0, 1);
     text-align: center;
     border-bottom: 1px solid #ffffff;
 }
@@ -515,7 +515,7 @@ select::-ms-expand {
     margin: 0 auto;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-bottom: 15px solid #858585;
+    border-bottom: 15px solid #BD2121;
 }
 
 .header-navigation {
@@ -585,7 +585,7 @@ select::-ms-expand {
 
 .scroll-header-bg .head-logo-img {
     width: auto;
-    height: 60px;
+    height: 50px;
 }
 
 .scroll-header-bg .head-tel-col {
@@ -618,7 +618,7 @@ select::-ms-expand {
 }
 
 .scroll-header-bg .header-bg {
-    padding: 5px 0;
+    padding: 2px 0;
 }
 
 .scroll-header-bg .nav-link {
@@ -638,7 +638,7 @@ select::-ms-expand {
     color: #f24841;
     font-size: 30px;
     line-height: 30px;
-    z-index: 10;
+    z-index: 100;
 }
 
 .scroll-to-top:before {
