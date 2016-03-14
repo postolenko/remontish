@@ -1356,7 +1356,6 @@ select::-ms-expand {
 }
 
 .order-table-row {
-    display: block;
     padding: 10px 0;
     font-size: 0;
     line-height: 0;
@@ -1365,39 +1364,42 @@ select::-ms-expand {
 .first-cell {
     display: inline-block;
     vertical-align: top;
-    width: 30%;
+    width: 35%;
 }
 
-.first-cell h3 {
+.first-cell:after {
+    display: block;
+    content: "";
+    width: 100%;
+    border-bottom: 1px dotted #444444;
+    position: relative;
+    top: -7px;
+}
+
+.first-cell h3 {    
     display: inline-block;
     vertical-align: top;
+    background-color: rgb(255, 255, 255);
     color: #444444;
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400px;
     padding: 0 2% 0 0;
-}
-
-.line {
-    display: inline-block;
-    vertical-align: bottom;
-    width: auto;
-    border-bottom: 1px dotted #444444;
-    margin: 0 auto;
     position: relative;
-    top: -7px;
+    z-index: 2;
 }
 
 .cell-description {
     display: inline-block;
     vertical-align: top;
-    width: 70%;
+    width: 65%;
     color: #444444;
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400px;
+    padding: 0 0 0 1%;
 }
 
 .order-done {
