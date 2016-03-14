@@ -123,7 +123,9 @@ button:active,
 a:hover,
 a:active,
 .scroll-to-top:hover,
-.scroll-to-top:active {
+.scroll-to-top:active,
+.main-nav-btn:hover,
+.main-nav-btn:active {
     -webkit-tap-highlight-color: rgba(0,0,0,0); 
     -webkit-tap-highlight-color: transparent;
 }
