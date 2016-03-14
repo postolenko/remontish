@@ -1,73 +1,8 @@
 @media only screen and (max-width: 940px) {
 
-.row {
-    padding: 0 1%;
-}
-
-/*-------------------------------------------*/
-/* ----- HEADER ------ */
-/*-------------------------------------------*/
-
-/*-------------------------------------------*/
-/* ----- CONTENT ------ */
-/*-------------------------------------------*/
-
-
-/*-- Хлебные крошки  --*/
-
-
-/*--  /Хлебные крошки  --*/
-
-
-
-
-
-/*-- Главная страница --*/
-
-
-
-/*-- /Главная страница --*/
-
-
-
-
-/*-- Ремонт Компьютеров --*/
-
-
-/*-- /Ремонт Компьютеров --*/
-
-
-
-
-
-/*-- Страница проверки статуса заказа --*/
-
-
-
-/*-- / Страница проверки статуса заказа --*/
-
-
-
-
-/*-- Оставить отзыв --*/
-
-
-
-/*-- /Оставить отзыв --*/
-
-
-
-/*-- Все отзывы --*/
-
-
-/*-- /Все отзывы --*/
-
-
-
-/*-------------------------------------------*/
-/* ----- FOOTER ------ */
-/*-------------------------------------------*/
-
+	.row {
+	    padding: 0 1%;
+	}
 
 }
 
@@ -174,16 +109,6 @@
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
 
-
-/*-- Хлебные крошки  --*/
-
-
-/*--  /Хлебные крошки  --*/
-
-
-
-
-
 /*-- Главная страница --*/
 
 .category-thumbs {
@@ -193,72 +118,64 @@
 
 /*-- /Главная страница --*/
 
-
-
-
 /*-- Ремонт Компьютеров --*/
 
+	.vk-vidget,
+	.baner-box {
+		padding: 20px 0;
+		border: none;
+	}
 
-
+	.vk-vidget .vk-vidget-img,
+	.baner-box .baner-img {
+		max-width: 300px;
+		margin: 0 auto;
+	}
 
 
 /*-- /Ремонт Компьютеров --*/
-
-
-
-
-
-/*-- Страница проверки статуса заказа --*/
-
-
-
-/*-- / Страница проверки статуса заказа --*/
-
-
-
-
-/*-- Оставить отзыв --*/
-
-
-
-/*-- /Оставить отзыв --*/
-
-
-
-/*-- Все отзывы --*/
-
-
-/*-- /Все отзывы --*/
-
 
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
 
+	.footer-col {
+		width: 60%;
+		margin: 10px 0;
+	}
+
+	.footer-logo {
+		width: 40%;
+	}
+
+	.footer-logo-img {
+		width: 95%;
+		height: auto;
+	}
+
 	.corp {
 	    font-size: 16px;
 	}
 
-	.footer-col {
-		width: 100%;
-		text-align: center;
-		margin: 20px 0;
+	.footer-nav {
+		display: none;
 	}
 
 	.footer-col .footer-col-right {
-		float: none;
+		float: right;
+		min-width: 260px;
 	}
 
 	.footer-right-col-row .adress,
 	.footer-right-col-row .work-time {
-	    font-size: 18px;
+	    font-size: 16px;
 	    line-height: 24px;
 	    margin: 7px 0;
 	}
 
 	.footer-right-col-row .drive-cart {
-	    font-size: 18px;
+	    font-size: 16px;
 	    line-height: 24px;
 	    margin: 15px 0;
 	}
@@ -436,8 +353,50 @@
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
 
-	.footer-nav {
+	.footer-col {
+	    float: none;
+	    min-width: 100%;
+	    margin: 20px 0;
+	}
+
+	.footer-contacts {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-contacts .hours,
+	.footer-contacts .minutes {
+		font-size: 24px;
+	}
+
+	.footer-col .footer-col-right {
+	    float: none;
+	    min-width: 100%;
+	}
+
+	.footer-logo {
 		display: none;
+	}
+
+	.footer-right-col-row .adress,
+	.footer-right-col-row .work-time,
+	.footer-right-col-row .drive-cart {
+	    font-size: 21px;
+	    line-height: 36px;
+	}
+
+	.footer-tel-link {
+	    font-size: 26px;
+	    line-height: 32px;
+	}
+
+	.footer-logo-480 {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-logo-480 .footer-logo-img {
+		max-width: 300px;
 	}
 
 
