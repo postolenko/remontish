@@ -1426,7 +1426,7 @@ select::-ms-expand {
     display: inline-block;
     vertical-align: middle;
     width: 32%;
-    min-height: 30px;
+    min-height: 32px;
     margin: 0 1% 0 0;
     padding: 0 7px;
     color: #383838;
@@ -1441,7 +1441,7 @@ select::-ms-expand {
     display: inline-block;
     vertical-align: middle;
     width: 32%;
-    min-height: 30px;
+    min-height: 32px;
     margin: 0 1% 0 0;
     padding: 0 7px;
     color: #383838;
@@ -1534,7 +1534,7 @@ select::-ms-expand {
 .captcha-code {
     display: block;
     width: 21%;
-    min-height: 30px;
+    min-height: 32px;
     margin: 0 0 5px 0;
     padding: 0 7px;
     color: #383838;
