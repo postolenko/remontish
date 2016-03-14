@@ -1428,7 +1428,7 @@ select::-ms-expand {
     width: 32%;
     min-height: 32px;
     margin: 0 1% 0 0;
-    padding: 0 7px 2px 7px;
+    padding: 0 7px;
     color: #383838;
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
