@@ -42,6 +42,20 @@ $(document).ready(function() {
 
         $("body").css({"padding-top": $(".header-box").height() + "px"});
 
+        for ( var countRows = 0; countRows <= $(".order-table-row").length - 1; ++countRows ) {
+
+            // $(".order-table-row:eq("+ countRows +") h3").css({"width" : $(".order-table-row:eq("+ countRows +") h3").outerWidth(true) + "px"});
+
+            // $(".order-table-row:eq("+ countRows +") .cell-description").css({"width" : $(".order-table-row:eq("+ countRows +") .cell-description").outerWidth(true) + "px"});
+
+            // $(".order-table-row:eq("+ countRows +") .line").css({
+
+            //     "width": Math.floor( $(".order-table-row:eq("+ countRows +")").width() - $(".order-table-row:eq("+ countRows +") h3").outerWidth(true) - $(".order-table-row:eq("+ countRows +") .cell-description").outerWidth(true) ) + "px"
+
+            // });
+
+        }
+
         getHeightTriangle();
 
     });
@@ -76,11 +90,27 @@ $(document).ready(function() {
 
     });
 
-
-
     // --- Service table
 
 
+    // Order table
+
+    for ( var countRows = 0; countRows <= $(".order-table-row").length - 1; ++countRows ) {
+
+        // $(".order-table-row:eq("+ countRows +") h3").css({"width" : $(".order-table-row:eq("+ countRows +") h3").outerWidth(true) - 1 + "px"});
+
+        // $(".order-table-row:eq("+ countRows +") .cell-description").css({"width" : $(".order-table-row:eq("+ countRows +") .cell-description").outerWidth(true) - 1 + "px"});
+
+        // $(".order-table-row:eq("+ countRows +") .line").css({
+
+        //     "width": Math.floor( $(".order-table-row:eq("+ countRows +")").width() - $(".order-table-row:eq("+ countRows +") h3").outerWidth(true) - $(".order-table-row:eq("+ countRows +") .cell-description").outerWidth(true) ) + "px"
+
+        // });
+
+    }
+
+
+    // --- Order table
 
 
     $(function() {

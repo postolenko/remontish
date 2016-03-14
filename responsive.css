@@ -387,6 +387,51 @@
 	/*-- /Ремонт компьютеров --*/
 
 
+
+	/*-- Все отзывы --*/
+
+	.testimonials-col {
+		margin: 0 0 30px 0;
+	}
+
+
+	/*-- /Все отзывы --*/
+
+
+
+	/*-- Оставить отзыв --*/
+
+	.form-box .name,
+	.form-box .surname,
+	.form-box .testimonial-area,
+	.form-box .captcha-code {
+		width: 98%;
+		margin: 5px auto;
+		font-size: 18px;
+    	line-height: 33px;
+	}
+
+	.radio-boxes h3 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+
+	.radio {
+		margin: 0;
+	}
+
+	.radio label {
+	    font-size: 16px;
+	    margin: 0 22px 0 10px;
+	}
+
+	.captcha {
+	    width: 73%;
+	}
+
+	/*-- /Оставить отзыв --*/
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
