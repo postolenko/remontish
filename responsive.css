@@ -75,6 +75,12 @@
 		top: 0%;
 	}
 
+	.main-nav-box {
+	    background-color: rgb(233, 233, 233);
+	    background-image: url(img/header_nav_bg.jpg);
+	    background-repeat: repeat;
+	}
+
 	.main-nav-btn,
 	.top-main-nav-btn {
 		display: block;
@@ -126,8 +132,7 @@
 		border: none;
 	}
 
-	.vk-vidget .vk-vidget-img,
-	.baner-box .baner-img {
+	.vk-vidget .vk-vidget-img {
 		max-width: 300px;
 		margin: 0 auto;
 	}
@@ -309,6 +314,14 @@
 
 	.testimonials-col {
 		margin: 0 0 30px 0;
+	}
+
+	.baner-box {
+		display: none;
+	}
+
+	.baner-box.for-480 {
+	    display: block;
 	}
 
 

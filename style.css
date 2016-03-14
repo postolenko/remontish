@@ -485,9 +485,9 @@ select::-ms-expand {
 }
 
 .main-nav-box {
-    background-color: rgb(233, 233, 233);
+/*    background-color: rgb(233, 233, 233);
     background-image: url(img/header_nav_bg.jpg);
-    background-repeat: repeat; 
+    background-repeat: repeat; */
     /*text-align: center;*/
 }
 
@@ -1775,6 +1775,11 @@ select::-ms-expand {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.baner-box.for-480 {
+    display: none;
+    min-width: 100%;
 }
 
 
