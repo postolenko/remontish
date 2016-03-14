@@ -127,6 +127,8 @@ a:active,
 .main-nav-btn:hover,
 .main-nav-btn:active,
 .dimension:hover,
+.main-nav-btn:active,
+.top-main-nav-btn:hover,
 .main-nav-btn:active {
     -webkit-tap-highlight-color: rgba(0,0,0,0); 
     -webkit-tap-highlight-color: transparent;
