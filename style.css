@@ -118,13 +118,19 @@ body {
 * html .clearfix             { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
 
+button:hover,
+button:active,
+a:hover,
+a:active,
+.scroll-to-top:hover,
+.scroll-to-top:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
 /*-------------------------------------------*/
 /* ----- DEFAULT STYLES ------ */
 /*-------------------------------------------*/
-
-h1 {
-
-}
 
 h2 {
     color: #3f3f3f;
@@ -174,7 +180,7 @@ select::-ms-expand {
 }
 
 .glyphicon-menu-left:before {
-  content: "\e257";
+    content: "\e257";
 }
 
 .glyphicon-star:before {
@@ -482,13 +488,6 @@ select::-ms-expand {
     transition-property: top;
     transition-duration: .4s;
     transition-timing-function: ease;
-}
-
-.main-nav-box {
-/*    background-color: rgb(233, 233, 233);
-    background-image: url(img/header_nav_bg.jpg);
-    background-repeat: repeat; */
-    /*text-align: center;*/
 }
 
 .main-nav-btn {
@@ -1114,15 +1113,17 @@ select::-ms-expand {
     display: table;
     width: 100%;
     margin: 10px 0 30px 0;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
-    -ms-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .table-h {
     display: table-row;
     background: rgba(90, 169, 176, 1);
+    background-image: url(img/table_h_bg.jpg);
+    background-repeat: repeat;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
     -ms-border-radius: 3px 3px 0 0;
@@ -1803,10 +1804,6 @@ select::-ms-expand {
     display: inline-block;
     vertical-align: top;
     width: 33.33%;
-}
-
-.footer-logo-img {
-
 }
 
 .corp {
