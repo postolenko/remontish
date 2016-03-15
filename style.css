@@ -143,7 +143,7 @@ h2 {
     font-family: "FiraSans-Bold", Verdana, Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     margin: 15px 0 30px 0;
     padding: .5% 0 0 1%;
@@ -231,7 +231,7 @@ select::-ms-expand {
     color: #ffffff;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     border: none;
     margin: 0;
@@ -242,7 +242,7 @@ select::-ms-expand {
     color: #383838;
     font-size: 12px;
     line-height: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     border: 1px solid transparent;
     padding: 3px 4px;
 }
@@ -254,7 +254,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 12px;
     line-height: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 3px 14px;
@@ -320,7 +320,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 30px;
     line-height: 36px;
-    font-weight: 700px;
+    font-weight: 700;
 
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -392,7 +392,7 @@ select::-ms-expand {
     color: #272727;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .work-time-icon {
@@ -407,7 +407,7 @@ select::-ms-expand {
     color: #272727;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .hours {
@@ -415,7 +415,7 @@ select::-ms-expand {
     color: #272727;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .minutes {
@@ -423,7 +423,7 @@ select::-ms-expand {
     color: #272727;
     font-size: 7px;
     line-height: 10px;
-    font-weight: 700px;
+    font-weight: 700;
     position: relative;
     top: -8px;
 }
@@ -439,7 +439,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -510,7 +510,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 2%;
 }
 
@@ -598,7 +598,7 @@ select::-ms-expand {
     font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     padding: 8px 10px;
@@ -717,7 +717,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 40px 0;
 }
 
@@ -733,7 +733,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     border-bottom: 1px solid #309cda;
 
     -webkit-transition-property: color background-image;
@@ -775,7 +775,7 @@ select::-ms-expand {
     color: #309cda;
     font-size: 9px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 5px;
 }
 
@@ -870,7 +870,7 @@ select::-ms-expand {
     font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .computers {
@@ -1015,7 +1015,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 7px 5px;
     text-transform: uppercase;
     text-align: center;
@@ -1079,7 +1079,7 @@ select::-ms-expand {
     color: #ffffff;
     font-size: 14px;
     line-height: 37px;
-    font-weight: 700px;
+    font-weight: 700;
     text-align: center;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1094,7 +1094,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 37px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 0 0 0 3%;
 }
@@ -1104,7 +1104,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 26px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 1.5% 0;
 }
 
@@ -1157,22 +1157,16 @@ select::-ms-expand {
 
 .service-name-col.table-price-h {
     color: #ffffff;
+    font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     font-size: 16px;
     font-weight: 700;
-    -webkit-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    -moz-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    -o-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
 }
 
 .service-price.table-price-h {
     color: #ffffff;
+    font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     font-size: 16px;
     font-weight: 700;
-    -webkit-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    -moz-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    -o-text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
-    text-shadow: 0px 0px 1px rgba(10, 67, 107, 1);
 }
 
 .service-name-col {
@@ -1216,7 +1210,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 2%;
 }
 
@@ -1257,7 +1251,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 10px 0 10px 30px;
 }
 
@@ -1313,7 +1307,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 22px;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 0 0 30px 0;
 }
 
@@ -1322,7 +1316,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 22px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 0 10px 0;
 }
 
@@ -1351,7 +1345,7 @@ select::-ms-expand {
     font-family: "FiraSans-Bold", Verdana, Arial, sans-serif;
     font-size: 30px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 30px 0;
     padding: .5% 0 0 1%;
@@ -1363,7 +1357,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 24px;
     line-height: 36px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .order-table {
@@ -1399,7 +1393,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 2% 0 0;
     position: relative;
     z-index: 2;
@@ -1413,7 +1407,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 0 0 1%;
 }
 
@@ -1441,7 +1435,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     border: 1px solid #e7e7e7;
 }
 
@@ -1456,7 +1450,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     border: 1px solid #e7e7e7;
 }
 
@@ -1469,7 +1463,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 20px 0 10px 0;
 }
 
@@ -1497,7 +1491,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 0 0 0 14px;
 }
 
@@ -1528,7 +1522,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     border: 1px solid #e7e7e7;
 }
 
@@ -1550,7 +1544,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     border: 1px solid #e7e7e7;
 }
 
@@ -1568,7 +1562,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 12px;
     line-height: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     border: 1px solid transparent;
     margin: 10px 0;
@@ -1633,7 +1627,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .testimonial-rating {
@@ -1662,7 +1656,7 @@ select::-ms-expand {
     color: #444444;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .put-testimonial-box {
@@ -1684,7 +1678,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 7px 5px;
     text-transform: uppercase;
     text-align: center;
@@ -1742,7 +1736,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .testimonial-page-num:link,
@@ -1766,7 +1760,7 @@ select::-ms-expand {
     cursor: pointer;
     font-size: 16px;
     line-height: 18px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .all-testimonials-right-col {
@@ -1829,7 +1823,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     margin: 45px 0 0 0;
 }
 
@@ -1844,7 +1838,7 @@ select::-ms-expand {
     font-family: "OpenSans-Bold", Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
 
     -webkit-transition-property: color;
@@ -1888,7 +1882,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .footer-right-col-row .work-time {
@@ -1896,7 +1890,7 @@ select::-ms-expand {
     font-family: "OpenSans", Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .footer-right-col-row .hours {
@@ -1904,7 +1898,7 @@ select::-ms-expand {
     color: #ffffff;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .footer-right-col-row .minutes {
@@ -1912,7 +1906,7 @@ select::-ms-expand {
     color: #ffffff;
     font-size: 7px;
     line-height: 10px;
-    font-weight: 700px;
+    font-weight: 700;
     position: relative;
     top: -8px;
 }
@@ -1922,7 +1916,7 @@ select::-ms-expand {
     color: #309cda;
     font-size: 14px;
     line-height:18px;
-    font-weight: 400px;
+    font-weight: 400;
     border-bottom: 1px solid #309cda;
     margin: 5px 0 10px 0;
 
@@ -1968,7 +1962,7 @@ select::-ms-expand {
     color: #ffffff;
     font-size: 18px;
     line-height: 18px;
-    font-weight: 700px;
+    font-weight: 700;
 
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.3s;
